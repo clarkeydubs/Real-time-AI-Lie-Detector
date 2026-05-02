@@ -1,22 +1,17 @@
-File Breakdown:
+## Installation Notes
 
-Realtime_main.py (MAIN RUN FILE)
+### PyTorch (GPU support)
+Install manually from:
+https://pytorch.org/get-started/locally/
 
-Pretrained model in accordance to Report Results:
-fusion_model.pth,
-audio_model.pth,
-gesture_model.pth,
-text_model.pth
+### FFmpeg (required for faster-whisper)
+- Ubuntu: sudo apt install ffmpeg
+- Mac: brew install ffmpeg
+- Windows: https://ffmpeg.org/download.html
 
-Model Architectures:
-modelfusion.py,
-modelaudio.py,
-modelgestures.py,
-modeltranscript.py (Text Model)
+### PortAudio (for sounddevice)
+- Ubuntu: sudo apt install portaudio19-dev
+- Mac: brew install portaudio
 
-Datasets:
-audio_features/*,
-All_Gestures.csv,
-transcriptdata.txt,
-vocab.pkl
-
+### Python Version
+Recommended: Python 3.9–3.11
