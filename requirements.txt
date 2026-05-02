@@ -13,25 +13,3 @@ librosa>=0.10.0
 sounddevice>=0.4.6
 
 faster-whisper>=1.0.0
-
-# =========================
-# ⚠️ IMPORTANT NOTES
-# =========================
-
-# PyTorch:
-# Install manually for GPU support (recommended):
-# https://pytorch.org/get-started/locally/
-
-# faster-whisper:
-# Requires FFmpeg installed on your system
-# Linux: sudo apt install ffmpeg
-# Mac: brew install ffmpeg
-# Windows: download from https://ffmpeg.org/
-
-# mediapipe:
-# Works best with Python 3.9–3.11
-
-# sounddevice:
-# May require PortAudio:
-# Linux: sudo apt install portaudio19-dev
-# Mac: brew install portaudio
